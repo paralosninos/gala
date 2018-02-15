@@ -7,7 +7,7 @@ Author URI: http://www.edunow.com and http://www.designbydooley.com
 Description: Created as a child theme of the Responsive Theme by Cyberchimps, this theme has been customized by Gerard Greenidge and Keira Dooley to support the Para Los Ninos 2017 Gala.
 Tags: custom-menu,custom-header,custom-background,one-column,two-columns,left-sidebar,right-sidebar,theme-options,threaded-comments,full-width-template,sticky-post,translation-ready,rtl-language-support,featured-images
 Version: 1.1486535831
-Updated: 2017-03-09
+Updated: 2018-02-14
 
 */
 
@@ -66,7 +66,7 @@ p, hr, dl, pre, form, table, address, blockquote {
 }
 
 div#colophon-widget { /*Banner Widget*/
-    background: #E71E25 url(/gala/wp-content/uploads/2017/02/gala-banner-bkg.png) top right no-repeat;
+    background: #fff url('/gala/wp-content/uploads/2018/02/gala2018_savethedate-banner.png') top right no-repeat;
     text-align: center;
     margin: 0;
     clear:both;
@@ -79,11 +79,12 @@ div#colophon-widget { /*Banner Widget*/
 }
 
 .main-nav {
-    background-color: #141F51;
+	background-color: #510B3D;
+	background-image: none;
 }
 
 .menu {
-	background-color: #141F51;
+	background-color: #510B3D;
 	background-image: none;
 	clear: both;
 	-ms-filter: none;
@@ -91,8 +92,8 @@ div#colophon-widget { /*Banner Widget*/
 }
 
 .menu a {
-    border-left: 1px solid #141F51;
-    color: #3d80c2;
+    border-left: 1px solid #510B3D;
+    color: #fff;
     cursor: pointer;
     display: block;
     font-size: 36px;
@@ -110,21 +111,32 @@ div#colophon-widget { /*Banner Widget*/
 }
 
 .menu a:hover {
-	background-color: #fff;
+	background-color: #902B66;
 	background-image:none;
-	color: #3D80C2;
+	color: #fff;
     	-ms-filter: "none";
 }
 
 ul.menu > li:hover {
-	background-color: #fff;
-	color: #3D80C2;
+	background-color: #902b66;
+	color: #fff;
 }
 
 .menu .current_page_item a,
 .menu .current-menu-item a {
-	background-color: #fff;
+	background-color: #902b66;
 }
+
+.menu li {
+    border: 0;
+    display: block;
+    float: left;
+    margin: 0;
+    position: relative;
+    padding: 0;
+    z-index: 5;
+}
+
 
 ul#menu-desktop-menu {
     margin: 0 auto;
@@ -149,11 +161,11 @@ ul#menu-desktop-menu {
     margin: 0 auto;
 }
 
-/*body.home .post-entry { /* USE FOR ABOUT VERSION OF HOMEPAGE */
+/*body.home .post-entry {  USE FOR ABOUT VERSION OF HOMEPAGE
     clear: both;
     max-width: 100%;
     margin: 0 auto;
-}/*
+}*/
 
 .col50 {
     float: left;
@@ -283,6 +295,7 @@ h1, h1.entry-title.post-title {
     margin: 0;
     text-transform: uppercase;
     font-weight: 900;
+	color: #510B3D;
 }
 h2 {
     font-size: 1.9444444444444444em;
@@ -291,6 +304,7 @@ h2 {
     margin-top: .75em;
     font-weight: 700;
     text-transform: uppercase;
+	color:#902B66;
 }
 h3 {
     font-size: 1.2222222222222223em;
@@ -304,7 +318,7 @@ h3 {
     margin: 0 auto;
     max-width: 100%;
     padding: 0 25px 0 25px;
-    background: #E71E25 url(/gala/wp-content/uploads/2017/02/gala-bkg.png) bottom right no-repeat;
+    background: #510B3D;
     font-size: 15px;
     line-height: 20px;
     color: #fff;
@@ -427,7 +441,7 @@ body.home h1.entry-title.post-title {
     margin-bottom:15px;
 }
 .sponsorbox-thanks h2 {
-    background: #de2033 url(/gala/wp-content/uploads/2017/03/gala-header-bkg.jpg) repeat-y right;
+    background: #902B66 url('/gala/wp-content/uploads/2018/02/gala2018_large-gradient-bkg.png') repeat-y right;
     color: #fff;
     padding: 10px;
     margin-top: 0;
